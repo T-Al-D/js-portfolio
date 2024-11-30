@@ -1,7 +1,5 @@
 # js-portfolio
 
-[![Deploy](https://github.com/T-Al-D/js-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/T-Al-D/js-portfolio/actions/workflows/deploy.yml)
-
 # React + Vite (Javascript + SWC)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
