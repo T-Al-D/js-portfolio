@@ -4,7 +4,7 @@ import "../styles/Nav.css";
 let navArray = [
 	{ id: "home", link: "/" },
 	{ id: "about", link: "/about" },
-	{ id: "project", link: "/project" },
+	{ id: "projects", link: "/projects" },
 ];
 
 export default function Nav() {
