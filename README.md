@@ -4,6 +4,8 @@
 
 ## Webpage here: https://t-al-d.github.io/js-portfolio/
 
+-> npm run deploy to publish the frontend
+
 # React + Vite (Javascript + SWC)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

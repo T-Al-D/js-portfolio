@@ -1,17 +1,22 @@
-nav > button {
-	font-weight: 600;
-	margin-left: 4px;
+.nav-button {
+	font-size: 1.25rem;
+	font-weight: 800;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 5px;
+	min-height: 40px;
+	min-width: 80px;
 	border-radius: 10%;
 	color: #001455;
 	border-width: 3px;
 	border-style: solid;
-	border-color: rgb(52, 8, 134);
+	border-color: rgb(129, 15, 182);
 }
 
-nav > button:hover {
-	font-weight: 600;
+.nav-button:hover {
 	margin-left: 4px;
 	border-radius: 10%;
 	color: #2b0557;
+	border-width: 5px;
 	border-color: rgb(9, 146, 39);
 }
