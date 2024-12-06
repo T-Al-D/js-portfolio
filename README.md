@@ -1,5 +1,7 @@
 # js-portfolio
 
+[![pages-build-deployment](https://github.com/T-Al-D/js-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/T-Al-D/js-portfolio/actions/workflows/pages/pages-build-deployment)
+
 ## Webpage here: https://t-al-d.github.io/js-portfolio/
 
 # React + Vite (Javascript + SWC)
