@@ -1,20 +1,22 @@
-import React from "react";
 import "../styles/Nav.css";
+import React from "react";
+import { Link } from "react-router-dom";
+
+// hash-based routing
 
 let navArray = [
-	{ id: "home", link: "/" },
-	{ id: "about", link: "/about" },
-	{ id: "projects", link: "/projects" },
+	{ id: "Home", link: "/" },
+	{ id: "About", link: "/about" },
+	{ id: "Projects", link: "/projects" },
 ];
 
 export default function Nav() {
 	return (
 		<nav>
 			{navArray.map((item) => (
-				<button href={item.link} className="nav-button">
-					{" "}
+				<Link key={item.id} to={item.link} className="nav-link">
 					{item.id}
-				</button>
+				</Link>
 			))}
 		</nav>
 	);

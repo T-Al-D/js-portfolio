@@ -11,6 +11,7 @@ Icon made with Pixilart: https://www.pixilart.com/
 In the Project I also used :
 
 -   react-router-dom
+-   gh-pages
 
 # React + Vite (Javascript + SWC)
 

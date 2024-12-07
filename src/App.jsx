@@ -1,17 +1,20 @@
+import "./App.css";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import "./App.css";
+import Routing from "./components/Routing";
 
 function App() {
 	return (
 		<div>
 			<div className="page-top">
-				<Header></Header>
-				<Nav></Nav>
+				<Header />
+				<Nav />
 			</div>
-
-			<Footer></Footer>
+			<div className="main-content">
+				<Routing />
+			</div>
+			<Footer />
 		</div>
 	);
 }

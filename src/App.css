@@ -14,8 +14,20 @@ body {
 }
 
 .page-top {
+	width: 99.5vw;
 	background-color: #0e032b;
-	width: 99vw;
-	border-width: 2px;
-	border-color: #3a3a3a;
+}
+
+/* pseudo element as bottom border */
+.page-top::after {
+	content: "";
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	height: 2px;
+	background-color: #5f5f5f;
+}
+
+.main-content {
+	margin-top: 3px;
 }

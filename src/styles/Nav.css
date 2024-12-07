@@ -1,19 +1,30 @@
-.nav-button {
+nav {
+	background-color: #0e032b; /* Set the background for the nav */
+	padding: 1px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.nav-link {
 	font-size: 1.25rem;
 	font-weight: 800;
+	text-decoration: none;
 	margin-top: 4px;
+	padding: 1px;
 	margin-bottom: 4px;
 	margin-left: 5px;
-	min-height: 40px;
-	min-width: 80px;
+	min-height: 25px;
+	min-width: 85px;
 	border-radius: 12%;
 	color: #001455;
+	background-color: #fff;
 	border-width: 3px;
 	border-style: solid;
 	border-color: rgb(129, 15, 182);
 }
 
-.nav-button:hover {
+.nav-link:hover {
 	margin-left: 4px;
 	border-radius: 10%;
 	color: #2b0557;
