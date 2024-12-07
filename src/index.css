@@ -13,15 +13,20 @@
 }
 
 body {
-	margin: 0;
+	margin: 2px;
 	display: flex;
 	min-width: 320px;
 	min-height: 99vh;
+	width: 99vw;
 }
 
 header {
 	font-size: 2rem;
 	text-align: center;
+}
+
+nav {
+	align-items: center;
 }
 
 footer {

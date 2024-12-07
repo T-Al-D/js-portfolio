@@ -12,3 +12,10 @@ body {
 	color: "#ffff";
 	background-color: rgb(28, 3, 49);
 }
+
+.page-top {
+	background-color: #0e032b;
+	width: 99vw;
+	border-width: 2px;
+	border-color: #3a3a3a;
+}

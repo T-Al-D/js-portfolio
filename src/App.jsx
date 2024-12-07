@@ -6,8 +6,11 @@ import "./App.css";
 function App() {
 	return (
 		<div>
-			<Header></Header>
-			<Nav></Nav>
+			<div className="page-top">
+				<Header></Header>
+				<Nav></Nav>
+			</div>
+
 			<Footer></Footer>
 		</div>
 	);

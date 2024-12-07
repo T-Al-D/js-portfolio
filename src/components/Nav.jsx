@@ -9,15 +9,13 @@ let navArray = [
 
 export default function Nav() {
 	return (
-		<div>
-			<nav>
-				{navArray.map((item) => (
-					<button href={item.link} className="nav-button">
-						{" "}
-						{item.id}
-					</button>
-				))}
-			</nav>
-		</div>
+		<nav>
+			{navArray.map((item) => (
+				<button href={item.link} className="nav-button">
+					{" "}
+					{item.id}
+				</button>
+			))}
+		</nav>
 	);
 }

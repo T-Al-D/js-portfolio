@@ -2,9 +2,15 @@
 
 [![pages-build-deployment](https://github.com/T-Al-D/js-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/T-Al-D/js-portfolio/actions/workflows/pages/pages-build-deployment)
 
+Icon made with Pixilart: https://www.pixilart.com/
+
 ## Webpage here: https://t-al-d.github.io/js-portfolio/
 
 -> npm run deploy to publish the frontend
+
+In the Project I also used :
+
+-   react-router-dom
 
 # React + Vite (Javascript + SWC)
 
