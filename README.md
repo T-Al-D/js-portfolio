@@ -12,7 +12,7 @@ In the Project I also used :
 
 -   react-router-doms
 -   gh-pages
--   motion
+-   motion : https://www.npmjs.com/package/framer-motion
 -   framer-motion
 
 # React + Vite (Javascript + SWC)
