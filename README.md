@@ -10,8 +10,10 @@ Icon made with Pixilart: https://www.pixilart.com/
 
 In the Project I also used :
 
--   react-router-dom
+-   react-router-doms
 -   gh-pages
+-   motion
+-   framer-motion
 
 # React + Vite (Javascript + SWC)
 
