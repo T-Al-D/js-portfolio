@@ -11,6 +11,7 @@ function App() {
 				<Header />
 				<Nav />
 			</div>
+			<div className="divide" />
 			<div className="main-content">
 				<Routing />
 			</div>
