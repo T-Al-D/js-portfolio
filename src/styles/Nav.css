@@ -15,6 +15,7 @@ nav {
 	font-size: 1.25rem;
 	font-weight: 800;
 	text-decoration: none;
+	display: block;
 	margin-top: 4px;
 	padding: 1px;
 	margin-bottom: 4px;
@@ -38,6 +39,7 @@ nav {
 }
 
 .menu-toggle {
+	position: sticky;
 	margin-top: 10px;
 	min-width: 50px;
 	height: 30px;
@@ -48,6 +50,20 @@ nav {
 	border-width: 3px;
 	border-style: solid;
 	border-color: rgb(15, 93, 182);
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown-list {
+	list-style-type: none;
+	background-color: transparent;
+	z-index: 1000; /* Make sure the dropdown appears above other elements */
+}
+
+.dropdown-list li {
+	padding: 10px 15px; /* Padding for each item */
 }
 
 /* display a different Nav depending on screen size*/
