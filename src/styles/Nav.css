@@ -1,14 +1,23 @@
+:root {
+	--leftMoveInside: -64px;
+	--rightMarginForToggle: 6px;
+}
+
 .nav-wrapper {
 	float: right;
 	padding-right: 20px;
 }
 
 nav {
-	background-color: #0e032b; /* Set the background for the nav */
 	padding: 1px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	background-color: #0e032b;
+}
+
+.nav-large {
+	margin-right: 5px;
 }
 
 .nav-link {
@@ -40,7 +49,8 @@ nav {
 
 .menu-toggle {
 	position: sticky;
-	margin-top: 10px;
+	margin-top: 12px;
+	margin-right: var(--rightMarginForToggle);
 	min-width: 50px;
 	height: 30px;
 	color: rgb(4, 36, 58);
@@ -53,17 +63,21 @@ nav {
 }
 
 .dropdown {
-	position: relative;
+	position: fixed;
 }
 
+/* negative to margin left is given to keep INSIDE screen*/
 .dropdown-list {
+	float: right;
 	list-style-type: none;
 	background-color: transparent;
-	z-index: 1000; /* Make sure the dropdown appears above other elements */
+	z-index: 10;
+	margin-left: calc(var(--leftMoveInside) + var(--rightMarginForToggle));
 }
 
 .dropdown-list li {
-	padding: 10px 15px; /* Padding for each item */
+	float: right;
+	padding: 10px 15px;
 }
 
 /* display a different Nav depending on screen size*/

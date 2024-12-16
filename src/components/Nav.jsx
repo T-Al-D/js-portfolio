@@ -37,7 +37,7 @@ export default function Nav() {
 				className="menu-toggle"
 				onClick={() => setMenuOpen(!menuOpen)}
 			>
-				MENU
+				≡ MENU
 			</button>
 			{/* Small navigation (visible on mobile) */}
 

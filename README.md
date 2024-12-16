@@ -14,6 +14,7 @@ In the Project I also used :
 -   gh-pages
 -   motion : https://www.npmjs.com/package/framer-motion
 -   framer-motion
+-   https://www.piliapp.com/symbol/menu/
 
 # React + Vite (Javascript + SWC)
 
