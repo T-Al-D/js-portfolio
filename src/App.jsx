@@ -13,7 +13,9 @@ function App() {
 			</div>
 			<div className="divide" />
 			<div className="main-content">
-				<Routing />
+				<main>
+					<Routing />
+				</main>
 			</div>
 			<Footer />
 		</div>

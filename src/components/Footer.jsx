@@ -10,7 +10,7 @@ export default function Footer() {
 					className="footer-link"
 					to="https://github.com/T-Al-D/js-portfolio"
 				>
-					＜＞ page-code
+					＜/＞
 				</Link>
 			</span>
 		</footer>
