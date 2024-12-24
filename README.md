@@ -14,6 +14,8 @@ In the Project I also used :
 -   gh-pages
 -   motion : https://www.npmjs.com/package/framer-motion
 -   framer-motion
+-   bootstrap : https://react-bootstrap.netlify.app/docs/getting-started/introduction/, https://getbootstrap.com/
+-   react-icons : https://www.npmjs.com/package/react-icons
 -   https://www.piliapp.com/symbol/menu/
 
 # React + Vite (Javascript + SWC)

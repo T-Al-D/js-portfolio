@@ -1,0 +1,38 @@
+.accordion-item {
+	margin: 6px;
+	padding: 0;
+	margin-right: 30px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #fff;
+}
+
+.accordion-header {
+	background-color: #130250;
+	color: white;
+	padding: 10px 15px;
+	font-size: 1.25rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordion-body {
+	margin: 0;
+	background-color: #430766;
+	padding: 2px;
+	font-size: 1rem;
+}
+.accordion-icon {
+	font-size: 1.25rem;
+}
+
+.accordion-item:hover .accordion-header:hover {
+	background-color: #053b75;
+}
+
+p {
+	margin: 0;
+	font-size: 1rem;
+}
