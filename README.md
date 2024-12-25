@@ -17,6 +17,9 @@ In the Project I also used :
 -   react-icons : https://www.npmjs.com/package/react-icons
 -   https://www.piliapp.com/symbol/menu/
 
+-   Images:
+    -   Image by <a href="https://pixabay.com/users/akitada31-172067/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6524741">Roman</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6524741">Pixabay</a>
+
 # React + Vite (Javascript + SWC)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

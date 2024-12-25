@@ -5,17 +5,20 @@ import Accordion from "../components/Accordion";
 let projects = [
 	{
 		id: 1,
-		name: "Tkinter (Python)",
+		title: "Tkinter (Python)",
+		link: "https://github.com/T-Al-D/TkinterMixedApplication",
 		description: "GUI with some functions.",
 	},
 	{
 		id: 2,
-		name: "MixedWpfApplication (C#)",
+		title: "MixedWpfApplication (C#)",
+		link: "https://github.com/T-Al-D/MixedWPFApplication",
 		description: "A collection of small programs in one. With Navigation.",
 	},
 	{
 		id: 3,
-		name: "Async Webserver (C++)",
+		title: "Async Webserver (C++)",
+		link: "https://github.com/T-Al-D/Asynchronous-ESP32-Webserver",
 		description:
 			"A stand-alone async webserver, that can be controlled via webpage.",
 	},

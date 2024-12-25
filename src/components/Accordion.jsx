@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Accordion.css";
 import { HiOutlineChevronLeft, HiOutlineChevronDown } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 export default function Accordion({ list }) {
 	const [activeIndex, setActiveIndex] = useState(0);
@@ -16,7 +17,7 @@ export default function Accordion({ list }) {
 						className="accordion-item-header"
 						onClick={() => toggleAccordion(item.id)}
 					>
-						<pre className="accordion-text">{item.name}</pre>
+						<pre className="accordion-text">{item.title}</pre>
 						<span className="accordion-item-header-icon">
 							{activeIndex == item.id ? (
 								<HiOutlineChevronDown />
@@ -27,10 +28,19 @@ export default function Accordion({ list }) {
 					</div>
 					{/*only show the body, if the current index has been selected! */}
 					{activeIndex == item.id && (
-						<div className="accordion-item-body">
+						<div
+							className="accordion-item-body"
+							onClick={() => toggleAccordion(item.id)}
+						>
 							<pre className="accordion-text">
 								{item.description}
 							</pre>
+							<Link
+								className="accordion-text-link"
+								to={item.link}
+							>
+								See more on GitHub
+							</Link>
 						</div>
 					)}
 				</div>
