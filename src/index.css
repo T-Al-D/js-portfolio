@@ -27,14 +27,15 @@ h1 {
 }
 
 footer {
-	margin-top: 2rem;
-	font-size: 0.9rem;
+	margin-top: 2.2rem;
+	justify-content: space-between;
+	align-items: center;
 	text-align: center;
 }
 
 .basic-text {
 	margin-top: 0px;
-	font-size: 1rem;
+	font-size: 1.05rem;
 	line-height: 1.25rem;
 	font-weight: 550;
 	text-wrap: wrap;
