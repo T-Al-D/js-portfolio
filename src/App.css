@@ -18,7 +18,7 @@ body {
 	width: 99.5vw;
 	padding-left: 5px;
 	background-color: #0e032b;
-	z-index: 1;
+	z-index: 10;
 }
 
 .page-top::before {
@@ -33,7 +33,29 @@ body {
 	background-position: center;
 	background-blend-mode: lighten;
 	background-image: url("../src/assets/images/background/circuit-board-cut.png");
-	opacity: 0.2;
+	opacity: 0.185;
+	z-index: -1;
+}
+
+.page-rest {
+	position: relative;
+	height: 97.5vh;
+	z-index: 10;
+}
+
+.page-rest:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: lighten;
+	background-image: url("../src/assets/images/background/matrix.jpg");
+	opacity: 0.12;
 	z-index: -1;
 }
 

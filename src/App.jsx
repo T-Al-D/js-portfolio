@@ -12,12 +12,14 @@ function App() {
 				<Nav />
 			</div>
 			<div className="divide" />
-			<div className="main-content">
-				<main>
-					<Routing />
-				</main>
+			<div className="page-rest">
+				<div className="main-content">
+					<main>
+						<Routing />
+					</main>
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</div>
 	);
 }
