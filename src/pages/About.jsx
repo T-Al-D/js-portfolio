@@ -8,18 +8,21 @@ let certList = [
 		title: "Ignition Core 8.1",
 		description:
 			"From Inductive Automation: For automation of industrial processes.",
+		link: "https://inductiveautomation.com/",
 	},
 	{
 		id: 2,
 		title: "Linux Essentials",
 		description:
 			"From LPI: Essential knowledge about Linux and it´s usage.",
+		link: "https://www.lpi.org/",
 	},
 	{
 		id: 3,
 		title: "Tulip",
 		description:
 			"From Tulip University: No-Code development for workstations.",
+		link: "https://tulip.co/",
 	},
 ];
 
