@@ -1,0 +1,22 @@
+.card {
+	max-width: 250px;
+	flex-wrap: wrap;
+	margin: 12px;
+	border-radius: 5%;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #300e68;
+	background-color: #05001f;
+}
+.card-inner-wrapper {
+	padding: 7px;
+}
+
+.card-text {
+	color: #fff;
+	margin-top: 2px;
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+	font-weight: 550;
+	text-wrap: wrap;
+}
