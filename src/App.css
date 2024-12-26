@@ -34,13 +34,13 @@ body {
 	background-blend-mode: lighten;
 	background-image: url("../src/assets/images/background/circuit-board-cut.png");
 	opacity: 0.185;
-	z-index: -1;
+	z-index: -5;
 }
 
 .page-rest {
 	position: relative;
 	height: 97.5vh;
-	z-index: 10;
+	z-index: 0; /*careful - could create problems with navigation!*/
 }
 
 .page-rest:before {
@@ -56,7 +56,7 @@ body {
 	background-blend-mode: lighten;
 	background-image: url("../src/assets/images/background/matrix.jpg");
 	opacity: 0.12;
-	z-index: -1;
+	z-index: -5;
 }
 
 /* pseudo element as bottom border */

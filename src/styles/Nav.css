@@ -6,6 +6,7 @@
 .nav-wrapper {
 	float: right;
 	padding-right: 20px;
+	z-index: 100;
 }
 
 nav {
@@ -60,10 +61,12 @@ nav {
 	border-width: 3px;
 	border-style: solid;
 	border-color: rgb(15, 93, 182);
+	z-index: 200;
 }
 
 .dropdown {
-	position: fixed;
+	position: absolute;
+	z-index: 100;
 }
 
 /* negative to margin left is given to keep INSIDE screen*/
@@ -71,13 +74,14 @@ nav {
 	float: right;
 	list-style-type: none;
 	background-color: transparent;
-	z-index: 10;
+	z-index: 200;
 	margin-left: calc(var(--leftMoveInside) + var(--rightMarginForToggle));
 }
 
 .dropdown-list li {
 	float: right;
 	padding: 10px 15px;
+	z-index: 100;
 }
 
 /* display a different Nav depending on screen size*/
