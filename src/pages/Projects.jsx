@@ -7,7 +7,7 @@ let projects = [
 		id: 1,
 		title: "Tkinter (Python)",
 		link: "https://github.com/T-Al-D/TkinterMixedApplication",
-		description: "GUI with some functions.",
+		description: "GUI with a few functions.",
 	},
 	{
 		id: 2,

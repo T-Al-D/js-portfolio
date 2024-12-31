@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/About.css";
 import Card from "../components/Card";
 

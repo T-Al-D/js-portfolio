@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Card.css";
 import { Link } from "react-router-dom";
 
-export default function Card({ cardInfo }) {
+export default function Card({ cardInfo, isOpen, onToggle }) {
 	return (
 		<div className="card">
 			<div className="card-inner-wrapper">

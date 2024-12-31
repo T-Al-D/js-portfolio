@@ -39,7 +39,9 @@ export default function Accordion({ list }) {
 								className="accordion-text-link"
 								to={item.link}
 							>
-								See more on GitHub
+								<button className="accordion-text-link-button">
+									See more on GitHub
+								</button>
 							</Link>
 						</div>
 					)}

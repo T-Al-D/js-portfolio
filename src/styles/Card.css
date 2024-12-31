@@ -1,8 +1,9 @@
 .card {
+	margin: 12px;
 	padding: 0;
 	max-width: 300px;
 	flex-wrap: wrap;
-	margin: 12px;
+	block-size: fit-content;
 	border-radius: 3%;
 	border-width: 3px;
 	border-style: solid;
