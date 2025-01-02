@@ -6,7 +6,7 @@ import Routing from "./components/Routing";
 
 function App() {
 	return (
-		<div>
+		<div className="app-wrapper">
 			<div className="page-top">
 				<Header />
 				<Nav />

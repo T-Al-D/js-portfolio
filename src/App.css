@@ -3,14 +3,16 @@
 }
 
 body {
+	height: 100%;
 	padding: 2px;
 	margin: 2px;
 	text-align: left;
 	vertical-align: text-top;
 	font-family: "Courier New", Courier, monospace;
 	font-size: 1rem;
-	color: "#ffff";
-	background-color: rgb(28, 3, 49);
+	color: #ffff;
+	z-index: 0;
+	background-size: cover;
 }
 
 .page-top {
@@ -58,16 +60,26 @@ body {
 	opacity: 0.12;
 	z-index: -5;
 }
+.page-rest::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(28, 3, 49, 0.384);
+	z-index: -4;
+}
 
 /* pseudo element as bottom border */
 .divide::before {
 	content: "";
 	position: absolute;
 	margin: 0;
-	left: 10px;
-	right: 10px;
+	left: 8px;
+	right: 8px;
 	height: 2px;
-	background-color: #5f5f5f;
+	background-color: #979797;
 }
 
 .main-content {
