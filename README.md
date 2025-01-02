@@ -21,6 +21,7 @@ In the Project I also used :
     -   Image by <a href="https://pixabay.com/users/akitada31-172067/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6524741">Roman</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6524741">Pixabay</a>
     -   https://pixabay.com/illustrations/matrix-code-computer-pc-data-356024/
     -   https://pixabay.com/de/illustrations/bin%C3%A4rcode-bin%C3%A4r-bin%C3%A4rsystem-platine-4437421/
+    -   https://pixabay.com/de/photos/code-html-digital-codierung-netz-1076536/
 
 # React + Vite (Javascript + SWC)
 
