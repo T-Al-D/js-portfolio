@@ -1,7 +1,8 @@
-.programming-background {
+.animated-background {
 	margin: 2.5%;
 	width: 75vw;
 	height: 75vh;
+	animation: image-shift 5s 0.5s infinite alternate;
 }
 
 img {
@@ -9,3 +10,39 @@ img {
 	max-height: 100%;
 	display: block;
 }
+
+@keyframes image-shift {
+	0% {
+		transform: rotateX(0deg);
+		transform: rotateY(0deg);
+		transform: rotateZ(0deg);
+	}
+	25% {
+		transform: rotateY(17deg);
+	}
+	75% {
+		transform: rotateY(-17deg);
+	}
+	100% {
+		transform: rotateX(0deg);
+		transform: rotateY(0deg);
+		transform: rotateZ(0deg);
+	}
+}
+
+/*
+@keyframes image-shift {
+	0% {
+		transform: rotateY(10deg);
+	}
+	25% {
+		transform: rotateY(20deg);
+	}
+	75% {
+		transform: rotateY(-20deg);
+	}
+	100% {
+		transform: rotateY(-10deg);
+	}
+}
+*/
