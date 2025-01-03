@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Home.css";
 import programmingBackground from "../assets/images/background/programming.jpg";
 import foregroundCoding from "../assets/images/foreground/codeing.jpg";
+import computer from "../assets/images/foreground/computer.jpg";
+import analysis from "../assets/images/foreground/analysis.jpg";
 
 export default function Home() {
 	return (
@@ -12,7 +14,17 @@ export default function Home() {
 				<img
 					src={foregroundCoding}
 					alt=""
-					className="floating-image"
+					className="floating-image foregroundCoding"
+				></img>
+				<img
+					src={analysis}
+					alt=""
+					className="floating-image analysis"
+				></img>
+				<img
+					src={computer}
+					alt=""
+					className="floating-image computer"
 				></img>
 			</div>
 		</div>

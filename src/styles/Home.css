@@ -4,10 +4,13 @@
 
 .animated-background {
 	margin: 2.5%;
+	margin-top: 7%;
 	width: 75vw;
 	height: 75vh;
 	perspective: 1000px;
-	animation: image-shift 5s 0.5s infinite alternate;
+	transform-style: preserve-3d;
+	animation: image-shift 10s 0.5s infinite alternate;
+	animation-timing-function: linear;
 }
 
 .animated-background img {
@@ -18,35 +21,35 @@
 
 .floating-image {
 	position: absolute;
-	top: 6%;
-	left: 5%;
-	transform: translateX(10%);
-	transform: translateX(10%) translateZ(50px);
+
 	width: var(--foreground-img-size);
 	height: var(--foreground-img-size);
 }
 
+.foregroundCoding {
+	top: 6%;
+	left: 9%;
+	transform: translateZ(50px);
+}
+
+.computer {
+	top: 24%;
+	left: 23%;
+	transform: translateZ(110px);
+}
+
+.analysis {
+	top: 55%;
+	left: 35%;
+	transform: translateZ(75px);
+}
+
 @keyframes image-shift {
 	0% {
-		transform: rotateX(0deg);
-		transform: rotateY(0deg);
-		transform: rotateZ(0deg);
-		transform: translateZ(0px);
-		transform: translateX(0px);
-	}
-	25% {
-		transform: rotateY(50deg) translateZ(100px);
-	}
-	50% {
-		transform: rotateY(0deg) translateZ(-100px);
-	}
-	75% {
-		transform: rotateY(-50deg) translateZ(-100px);
+		transform: rotateX(25deg) rotateY(55deg) rotateZ(-15deg)
+			translateZ(100px);
 	}
 	100% {
-		transform: rotateX(0deg);
-		transform: rotateY(0deg);
-		transform: rotateZ(0deg);
-		transform: translateZ(100px);
+		transform: rotateY(0deg) translateZ(-100px);
 	}
 }

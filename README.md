@@ -22,6 +22,8 @@ In the Project I also used :
     -   https://pixabay.com/illustrations/matrix-code-computer-pc-data-356024/
     -   https://pixabay.com/de/illustrations/bin%C3%A4rcode-bin%C3%A4r-bin%C3%A4rsystem-platine-4437421/
     -   https://pixabay.com/de/photos/code-html-digital-codierung-netz-1076536/
+    -   https://pixabay.com/illustrations/technology-computer-internet-8676540/
+    -   https://pixabay.com/illustrations/computer-monitor-code-office-8779036/
 
 # React + Vite (Javascript + SWC)
 
